@@ -77,7 +77,7 @@
 try
 {
     //On se connecte à Mysql
-     $bdd = new PDO('mysql:host=sql304.hebergratuit.net;dbname=heber_19388446_lamia;charset=utf8', 'heber_19388446', '3Y01Kfmb8g');
+     $bdd = new PDO('mysql:host='';dbname='';charset=utf8', '', '');
 }
 catch (Exception $e)
 {

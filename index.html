@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Hello</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content ="Description de la page"/>
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+	</head>
+	<body>
+		<!-- degradé-->
+		<div id="gradient"></div>
+		<!-- Navigation -->
+		<!-- Nav est un sysonyme 
+			semantique de div -->
+		<nav id="main-nav">
+
+			<ul class="content-width">
+				<li class="active"><a href="#">Accueil</a></li>
+				<li><a href="#">Services</a>
+					<ul>
+						<li><a href="">Service 1</a></li>
+						<li><a href="">Service 2</a></li>
+						<li><a href="">Service 3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacts</a></li>
+
+			</ul>
+		</nav>
+		<div id="menu-space"></div>
+		<!-- Contenu principal -->
+		<section id="main" class="content-width"> 
+
+			<header class="col-12"> <h1> Veuillez saisir votre code postal</h1>
+			</header>
+			
+			
+			<!-- Separateur annule le float -->
+			<div class="clear"></div>
+			<div class="bg-red top-left"></div>	
+		
+
+			<section id="service">
+				<div class="container">
+					
+					
+						<div class="sec-title text-center" >
+							<h2 class="wow animated bounceInLeft">Code postal</h2>
+						</div>
+						
+						<div >
+							<form action="resultat.php" method="post">
+								<div id="recherche">
+									<input id="input" type="text" name="codepostal" class="form-control" placeholder="Votre code postal" >
+								</div>
+								
+								
+						<button type="submit" id="button-recherche" >Ville correspondante au code postal</button>
+						</div>
+							</form>
+						</div>
+						
+						
+						
+						
+						</div>
+					
+					
+					
+			</section>
+
+			
+		</section>
+		
+		
+
+		<footer>
+			<div class="content-width">
+				<ul>
+				<li class="active">
+				<a href="#">Accueil</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+			</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	</body>
+</html>
